@@ -1,12 +1,12 @@
 # Rails 5 App Template
 
-This is a general purpose Rails 5 app template that is setup to use postgresql.
+This is a general purpose Rails 5.0.1 app template that is setup to use postgresql.
 It includes authentication, authorization and bootstrap styling.
 
 ## To use
 
-1. Fork and/or clone this repo from github. `git clone git@github.com:pedrogrande/rails5apptemplate.git`. Apply your own project name by adding the app's name after this command.
-2. Enter the created folder: `cd rails5apptemplate`. Or the name you gave your project.
+1. Fork and/or clone this repo from github. `git clone git@github.com:pedrogrande/rails501template.git`. Apply your own project name by adding the app's name after this command.
+2. Enter the created folder: `cd rails501template`. Or the name you gave your project.
 3. If you don't have Postgresql installed locally, you may wish to swap the database to sqlite3. Change this in the Gemfile. This will also require you to update `config/database.yml` to reflect the sqlite3.
 3. Run a bundle. `bundle`
 4. Edit the database names in `config/database.yml` (only if using Postgresql)
@@ -20,7 +20,7 @@ It includes authentication, authorization and bootstrap styling.
 - [simple Form](https://github.com/plataformatec/simple_form)
 - [cancancan](https://github.com/CanCanCommunity/cancancan)
 - [rolify](https://github.com/RolifyCommunity/rolify)
-- [bootstrap-Sass (Bootstrap v3)](https://github.com/twbs/bootstrap-sass)
+- [bootstrap (Bootstrap v4)](https://github.com/twbs/bootstrap-rubygem)
 - [font-awesome-sass](https://github.com/FortAwesome/font-awesome-sass)
 - rails_12factor in a production group (for Heroku).
 
@@ -47,7 +47,7 @@ The ability model file has been edited to use Rolify has_role? method.
 
 ### Bootstrap
 
-Version 3 of Bootstrap is installed through the bootstrap-sass gem.
+Version 4 of Bootstrap is installed through the bootstrap-sass gem.
 A navbar partial is located in `app/views/shared`.
 A fading alerts partial is located in `app/views/shared`.
 
